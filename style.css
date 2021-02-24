@@ -13,11 +13,10 @@ body{
     text-align: left;
     line-height: 1.5;
 }
+/* Debut header */
 header{
     margin-top: 0;
     width:100vw;
-    height: 50vh;
-    
 }
 .navbar{
     margin: 0%;
@@ -45,8 +44,9 @@ padding: 0;
     align-items: center;
     justify-content: space-around;
     margin: 15px auto;
+    list-style: none;
     }
-.navbar .menu>ul>li{
+.navbar .menu ul li{
     color: #ffffff;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -57,4 +57,104 @@ padding: 0;
 .navbar .menu ul li:hover{
     cursor: pointer;
     border-bottom: 2px solid white;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+/* fin header */
+
+/* debut du conteneur */
+.conteneur{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+.conteneur .conteneur1 {
+    padding-top: 30px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./images/hero-background.jpg);
+    
+}
+.conteneur11 h1{
+    margin: 0 auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 90px;
+    font-weight: 1000;
+    line-height: 90px;
+    color: #ffffff;
+    font-style: normal;
+    text-align: center;
+}
+span{
+    color: #fff331;
+}
+.conteneur1 .conteneur12{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.conteneur1 .conteneur12 .btn{
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 20px;
+    border: none;
+    color: #f40062;
+    padding: 10px;
+    margin: 10px;
+}
+.conteneur1 .conteneur12 input:hover, .conteneur1 .conteneur12 input:focus{
+    cursor: pointer;
+    background-color: #ef0049;
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 20px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.conteneur1 .conteneur13 h5{
+    margin-top: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+}
+.conteneur1 .conteneur14{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin:10px;
+    padding: 10px;
 }
