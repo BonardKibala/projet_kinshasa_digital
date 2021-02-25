@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -20,12 +23,13 @@ header{
 }
 .navbar{
     margin: 0%;
-    background-color: #ef0049;
+    background-color: #D92950;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+  
     
 }
 .navbar .logo figure{
@@ -48,7 +52,7 @@ padding: 0;
     }
 .navbar .menu ul li{
     color: #ffffff;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -61,7 +65,7 @@ padding: 0;
 a{
     text-decoration: none;
     color: #ffffff;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -74,7 +78,6 @@ a{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    align-content: flex-start;
 }
 .conteneur .conteneur1 {
     padding-top: 30px;
@@ -88,7 +91,7 @@ a{
 }
 .conteneur11 h1{
     margin: 0 auto;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 90px;
     font-weight: 1000;
     line-height: 90px;
@@ -102,39 +105,39 @@ span{
 .conteneur1 .conteneur12{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 30px;
+    margin-bottom: 15px;
 }
+
 .conteneur1 .conteneur12 .btn{
     background-color: white;
     border-radius: 20px;
     width: 250px;
     height: 60px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
     font-style: normal;
-    padding: 20px;
     border: none;
-    color: #f40062;
+    color: #D92950;
     padding: 10px;
     margin: 10px;
 }
 .conteneur1 .conteneur12 input:hover, .conteneur1 .conteneur12 input:focus{
     cursor: pointer;
-    background-color: #ef0049;
+    background-color: #D92950;
     border-radius: 20px;
     width: 250px;
     height: 60px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
     font-style: normal;
     padding: 20px;
-    border: 2px solid white;
+    border: 2.5px solid white;
     color: white;
     padding: 10px;
     margin: 10px;
@@ -142,7 +145,7 @@ span{
 }
 .conteneur1 .conteneur13 h5{
     margin-top: 10px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -154,7 +157,101 @@ span{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
-    margin:10px;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.conteneur1 .conteneur14 .technos{
+    width: 60px;
+    height: 60px;
+    margin-right:85px;
     padding: 10px;
+}
+
+.conteneur2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2eff3;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.conteneur21{
+    width: 100%;
+    height: 100%;
+}
+.conteneur2 .conteneur21 img{
+    border-radius: 20px;
+    position: absolute;
+}
+
+.conteneur21 img:nth-child(1){
+    width: 530px;
+    height: 390px;
+    margin: 50px 0 0 -80px;
+}
+
+.conteneur21 img:nth-child(2){
+    width: 346px;
+    height: 260px;
+    margin: 250px 0 0 200px;
+}
+.conteneur2 .conteneur22{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.conteneur2 .conteneur22 .dev-qualifie{
+    color: #424345;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    line-height: 48px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+    margin: 50px 0 0 0px;
+
+    padding:0px;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(66, 67, 69);
+    text-align:left;
+    text-indent:0px;
+}
+
+.conteneur221, .conteneur222{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+}
+.conteneur221{
+    margin-bottom: 50px;
+}
+.img-svg{
+    width: 50px;
+    height: 60px;
+    margin: 50px 150px 0px 170px;
+}
+.img-svg h5{
+   font: 'Montserrat', sans-serif;
+   color: #424345;
+   font-size: 20px;
+   line-height: 24px;
+   vertical-align: text-bottom;
+   letter-spacing: normal;
+   word-spacing: 0px;
+   margin: 0px 0px 8px -80px;
+   padding: 0px;
+   font-weight:700;
+   text-align: justify;
+   width: 300px;
 }
