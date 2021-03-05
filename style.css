@@ -145,7 +145,7 @@ span{
     margin: 10px;
     
 }
-.conteneur1 .conteneur13 h5>pre{
+.conteneur1 .conteneur13>h5{
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -155,6 +155,7 @@ span{
     color: #ffffff;
     text-align: center;
     opacity: 0.8;
+    margin-bottom: 20px;
 }
 .conteneur1 .conteneur14{
     display: flex;
@@ -280,7 +281,7 @@ section .conteneur3{
 .conteneur3 .title-partener{
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 48px;
     font-weight: 700;
     margin-top: 100px;
@@ -440,14 +441,17 @@ margin-bottom: 40px;
     justify-content: space-between;
     text-align: center !important;;
 }
+.work{
+    width: 34%;
+}
 
-#work>img{
+.work>img{
     width: 320px;
     height: 400px;
     margin-left: 40px;
     border-radius: 15px;
 }
-#work a>img{
+.work a>img{
     width: 320px;
     height: 400px;
     margin-left: 40px;
@@ -455,7 +459,7 @@ margin-bottom: 40px;
     text-decoration: none;
     margin-bottom: 10px;
 }
-#work, #legende{
+.work, .legende{
     word-break: break-all;
 }
 .legende-para>.client-p>p, .legende-para>.client-p>p>a{
@@ -848,14 +852,14 @@ padding: 20px;
     font-weight:700;
     margin-bottom: 10px;
 }
-#bloc1{
+#bloc1t{
 display: flex;
 flex-direction: row;
 align-items: flex-start;
 justify-content: space-between;
 
 }
-#bloc2{
+#bloc2t{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -1256,7 +1260,7 @@ nav{
     width: 135.1rem;
     height: 4.21rem;
     position: fixed;
-    opacity: 1;
+    z-index: 1;
 
     }
 .bloc-empl>h4, .bloc-empl1>h4{
